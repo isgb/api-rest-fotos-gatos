@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatos App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Secular+One&family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <h1 class="my-4 fw-bold">GATITOS ALEATORIOS</h1>
+
+            <span id="error"></span>
+
+        </div>
+    </div>
+
+    <div class="container">
+
+        <button class="btn btn-primary btn-buscar-gato" onclick="loadRandomMichis()">Buscar Gatos</button> 
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12" id="aleatoriosGatos">
+       
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <img class="img-card" id="imgGato1" width="150" alt="Foto gato aleatorio">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <img class="img-card" id="imgGato2" width="150" alt="Foto gato aleatorio">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <img class="img-card" id="imgGato3" width="150" alt="Foto gato aleatorio">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <img class="img-card" id="imgGato4" width="150" alt="Foto gato aleatorio">
+                    
+                  </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
